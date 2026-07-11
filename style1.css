@@ -1,0 +1,137 @@
+.oll{
+    background-color: rgba(0, 0, 0, 0.822);
+}
+.button{
+    width: 400px;
+    height: 400px;
+    background-image: url(business.png);
+    position: fixed;
+    top: 47vh;
+    right: 5vw;
+}
+.img{
+    width: 400px;
+    height: 400px;
+    background-image: url(work.png);
+    position: fixed;
+    top: 47vh;
+    left: 5vw;  
+}
+.tag{
+    color: rgb(51, 255, 0);
+    position: fixed;
+    top: 5vh;
+    left: 33vw;
+}
+.bady{
+    background-color: rgba(0, 0, 0, 0.692);
+}
+.shop{
+    color: rgb(60, 255, 0);
+    position: fixed;
+    top: 30vh;
+    left: 43vw;
+}
+.name{
+ position: fixed;
+    top: 32vh;
+    left: 43vw;   
+}
+.phone{
+     color: rgb(60, 255, 0);
+    position: fixed;
+    top: 35vh;
+    left: 43vw;
+}
+.tel{
+    position: fixed;
+    top: 37vh;
+    left: 43vw;
+}
+.option{
+    position: fixed;
+    top:51vh;
+    left: 52.2vw;
+}
+.city{
+    position: fixed;
+    top:51vh;
+    left: 43vw;
+}
+.hello{
+    color: rgb(30, 255, 0);
+    position: fixed;
+    top: 5vh;
+    left: 50vw;
+}
+.ras{
+    color: rgb(30, 255, 0);
+    position: fixed;
+    top: 13vh;
+    left: 42.8vw;
+}
+.whats{
+    color: rgb(30, 255, 0);
+    position: fixed;
+    top: 40vh;
+    left: 43vw;
+}
+.whats_app{
+ position: fixed;
+ top: 42vh;
+ left: 43vw;   
+}
+.num{
+    color: rgb(30, 255, 0);
+    position: fixed;
+    top: 45vh;
+    left: 43vw;
+}
+.telo{
+ position: fixed;
+ top: 47vh;
+ left: 43vw;
+}
+.Next{
+    position: fixed;
+    top: 60vh;
+    left: 50vw;
+}
+.tipe{
+    color: rgb(30, 255, 0);
+    position: fixed;
+    top: 25vh;
+    left: 43vw;
+}
+.type{
+    position: fixed;
+    top: 27vh;
+    left: 43vw;
+}
+.data{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* height: 25vh;
+    width: 25vw;
+    background-color: rgba(0, 0, 0, 0.616); */
+}
+.delete{
+    cursor: pointer;
+    position: absolute;
+    top: .5vh;
+    right: .5vw;
+}
+.size{
+    font-size: 27px;
+}
+.offer_box{
+    background-color: aliceblue;
+    border: 1px solid gray;
+    padding: 20px;
+    flex: 1 1 200px;
+    position: relative;
+}
+.dbbcg{
+    background-color: rgba(0, 0, 0, 0.685);
+}
