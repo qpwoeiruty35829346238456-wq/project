@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="style1.css">
 </head>
 <body class="bady">
-    <h1 class="hello">Hello</h1>
-    <h3 class="ras">Enter Your Store Location Details</h3>
+    <h1 class="hello" data-i18n="hello">Hello</h1>
+    <h3 class="ras" data-i18n="storeLocation">Enter Your Store Location Details</h3>
     <form onsubmit="return good()">
-        <label for="e" class="tipe">Enter Store type</label>
+        <label for="e" class="tipe" data-i18n="storeType">Enter Store type</label>
         <input id="e" class="type" type="text" name="store_type" style="font-size: 20px" autocapitalize="words" autocorrect="off" autocomplete="text" required>
-     <label for="a" class="shop">enter your shop name</label>
+     <label for="a" class="shop" data-i18n="shopName">enter your shop name</label>
         <input id="a" style="font-size: 20px;" class="name" type="text" name="shop_name" autocapitalize="words" autocorrect="off" autocomplete="text" required>
-     <label for="b" class="phone">enter your phone number</label>
+     <label for="b" class="phone" data-i18n="phoneNumber">enter your phone number</label>
         <input id="b" inputmode="numeric" pattern="^01[0-2,5][0-9]{8}$" oninput='this.value = this.value.replace(/[^0-9]/g, "")' style="font-size: 20px;" class="tel" type="tel" name="mobile_phone" autocomplete="tel" required>
-        <label for="c" class="whats">WhatsApp Number</label>
+        <label for="c" class="whats" data-i18n="whatsApp">WhatsApp Number</label>
         <input id="c" inputmode="numeric" pattern="^01[0-2,5][0-9]{8}$" oninput='this.value = this.value.replace(/[^0-9]/g, "")' style="font-size: 20px;" class="whats_app" type="tel" name="whatsapp_number" autocomplete="tel" required>
-        <label for="d" class="num">Expected Salary</label>
+        <label for="d" class="num" data-i18n="ExpectedSalary">Expected Salary</label>
         <input id="d" style="font-size: 20px;" class="telo" type="number" name="expected_salary" autocomplete="number" required>
         <select id="governorate" class="option" name="governorate" required>
             <option value="" disabled selected hidden>Select governorate</option>
