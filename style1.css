@@ -117,9 +117,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    /* height: 25vh;
-    width: 25vw;
-    background-color: rgba(0, 0, 0, 0.616); */
 }
 .delete{
     cursor: pointer;

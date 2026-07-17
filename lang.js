@@ -12,9 +12,15 @@ document.querySelectorAll("#governorate option[value]").forEach(opt => {
     document.documentElement.lang = lang;
 document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
 localStorage.setItem("selectedLang" , lang);
+const langSelect = document.getElementById("lang");
+if(langSelect) {
+    langSelect.value = lang;
 }
-
-// document.getElementById("lang").addEventListener("change" , function(){
-//     setLanguage(this.value);
-// })
+}
+const langSelect = document.getElementById("lang");
+if(langSelect) {
+    langSelect.addEventListener("change" , function(){
+        setLanguage(this.value);
+    })
+}
 setLanguage(localStorage.getItem("selectedLang") || "en")
