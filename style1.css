@@ -3,6 +3,11 @@
     top: 1vh;
     right: 1vw;
 }
+.langs{
+    position: fixed;
+    top: 49vh;
+    left: 54vw;
+}
 .oll{
     background-color: rgba(0, 0, 0, 0.822);
 }

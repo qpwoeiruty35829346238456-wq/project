@@ -31,12 +31,22 @@ const govSelect = document.getElementById("governorate");
 const citySelect = document.getElementById("city");
 govSelect.addEventListener("change" , function(){
     const selectedGov = govSelect.value;
-    const citiesList = cities[selectedGov];
-    citySelect.innerHTML = '<option value = "" disabled selected hidden>Select city</option>'
+    const lang = localStorage.getItem("selectedLang") || "en";
+    const citiesList = lang === "ar" ? citiesAr[selectedGov] : cities[selectedGov]
+    const originalList = cities[selectedGov];
+    citylegacy.innerHTML = '<option value = "" disabled selected hidden>Select city</option>'
     for (let i = 0; i < citiesList.length; i++) {
-    citySelect.innerHTML += '<option value = "' + citiesList[i] + '">' + citiesList[i] + '</option>'
+    citylegacy.innerHTML += '<option value = "' + citiesList[i] + '">' + citiesList[i] + '</option>'
     }
 })
+// govSelect.addEventListener("change" , function(){
+//     const selectedGov = govSelect.value;
+//     const citiesList = cities[selectedGov];
+//     citySelect.innerHTML = '<option value = "" disabled selected hidden>Select city</option>'
+//     for (let i = 0; i < citiesList.length; i++) {
+//     citySelect.innerHTML += '<option value = "' + citiesList[i] + '">' + citiesList[i] + '</option>'
+//     }
+// })
 function good(){
     if(true){
         let newOffer = {
