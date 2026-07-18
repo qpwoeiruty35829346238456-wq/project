@@ -25,7 +25,7 @@
         <label for="d" class="num" data-i18n="ExpectedSalary">Expected Salary</label>
         <input id="d" style="font-size: 20px;" class="telo" type="number" name="expected_salary" autocomplete="number" required>
         <select id="governorate" class="option" name="governorate" required>
-            <option value="" disabled selected hidden>Select governorate</option>
+            <option value="" disabled selected hidden data-i18n="Selectgovernorate">Select governorate</option>
             <option value="alex">Alexandria</option>
             <option value="aswan">Aswan</option>
             <option value="asyut">Asyut</option>
@@ -55,11 +55,11 @@
             <option value="suez">Suez</option> 
         </select>
         <select name="city" id="city" class="city" required>
-            <option value=""disabled selected hidden>Select city</option>
+            <option value=""disabled selected hidden data-i18n="Selectcity">Select city</option>
         </select>
         <button class="Next" style="font-size: 30px;" data-i18n="next">Next</button>
     </form>
-    <button type="button" onclick="window.location.href = 'complete.html'">Manage Offers</button>
+    <button data-i18n="Manage" type="button" onclick="window.location.href = 'complete.html'">Manage Offers</button>
     <script src="translations.js"></script>
     <script src="lang.js"></script>
     <script src="chose.js"></script>

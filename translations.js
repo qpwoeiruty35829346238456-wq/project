@@ -11,7 +11,10 @@ const translations = {
         phoneNumber: "enter your phone number",
         whatsApp: "WhatsApp Number",
         ExpectedSalary: "Expected Salary",
-        next: "Next"
+        next: "Next",
+        Manage: "Manage",
+        Selectgovernorate: "Select governorate",
+        Selectcity: "Select city"
     },
     ar: {
         trans: "عالم الاعمال",
@@ -25,7 +28,10 @@ const translations = {
         phoneNumber: "ادخل رقم هاتفك",
         whatsApp: "رقم الواتساب",
         ExpectedSalary: "الراتب المتوقع",
-        next: "التالى"
+        next: "التالى",
+        Manage: "ادارة العروض",
+        Selectgovernorate: "اختر المحافظة",
+        Selectcity: "اختر المدينة"
     }
 }
 const governorates = {
@@ -88,8 +94,7 @@ const governorates = {
          suez: "السويس"
     }
 }
-const cities = {
-    ar: {
+const citiesAr = {
         cairo: ["مدينة نصر", "مصر الجديدة", "المعادى", "القاهرة الجديدة", "شبرا", "حلوان", "عين شمس", "المقطم", "الزمالك", "وسط البلد", "المرج"],
         giza: ["مدينة 6 اكتوبر", "الشيخ زايد", "الدقي", "المهندسين", "الهرم", "فيصل", "العجوزة", "البدرشين", "الصف", "اطفيح", "العياط", "كرداسة"], 
         alex: ["المنتزه", "سيدي جابر", "سموحة", "العجمي", "برج العرب", "العامرية", "ميامي", "الرمل", "محرم بك", "الجمرك"],
@@ -116,6 +121,5 @@ const cities = {
         luxor: ["الأقصر", "ارمنت", "اسنا ", "الطود"],
         qena: ["قنا", "نجع حمادي", "قوص", "دشنا", "فرشوط", "ابو تشت"],
         north_sinai: ["العريش", "الشيخ زويد", "رفح", "بئر العبد", "نخل"],
-        sohag: ["سوهاج", "جرجا", "طهطا", "اخميم", "المراغة", "البلينا"],
-    }
+        sohag: ["سوهاج", "جرجا", "طهطا", "اخميم", "المراغة", "البلينا"]
 }

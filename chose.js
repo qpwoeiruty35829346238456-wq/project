@@ -25,7 +25,7 @@ const cities = {
  luxor: ["Luxor", "Armant", "Esna", "El Tod"],
  qena: ["Qena", "Nag Hammadi", "Qus", "Dishna", "Farshut", "Abu Tesht"],
  north_sinai: ["Arish", "Sheikh Zuweid", "Rafah", "Bir El Abd", "Nakhl"],
- sohag: ["Sohag", "Girga", "Tahta", "Akhmim", "El Maragha", "El Balyana"],
+ sohag: ["Sohag", "Girga", "Tahta", "Akhmim", "El Maragha", "El Balyana"]
 };
 const govSelect = document.getElementById("governorate");
 const citySelect = document.getElementById("city");
@@ -34,19 +34,11 @@ govSelect.addEventListener("change" , function(){
     const lang = localStorage.getItem("selectedLang") || "en";
     const citiesList = lang === "ar" ? citiesAr[selectedGov] : cities[selectedGov]
     const originalList = cities[selectedGov];
-    citylegacy.innerHTML = '<option value = "" disabled selected hidden>Select city</option>'
+    citySelect.innerHTML = '<option value = "" disabled selected hidden>Select city</option>'
     for (let i = 0; i < citiesList.length; i++) {
-    citylegacy.innerHTML += '<option value = "' + citiesList[i] + '">' + citiesList[i] + '</option>'
+    citySelect.innerHTML += '<option value = "' + citiesList[i] + '">' + citiesList[i] + '</option>'
     }
 })
-// govSelect.addEventListener("change" , function(){
-//     const selectedGov = govSelect.value;
-//     const citiesList = cities[selectedGov];
-//     citySelect.innerHTML = '<option value = "" disabled selected hidden>Select city</option>'
-//     for (let i = 0; i < citiesList.length; i++) {
-//     citySelect.innerHTML += '<option value = "' + citiesList[i] + '">' + citiesList[i] + '</option>'
-//     }
-// })
 function good(){
     if(true){
         let newOffer = {

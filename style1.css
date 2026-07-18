@@ -119,9 +119,12 @@
     left: 43vw;
 }
 .data{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: row;
+    /* flex-wrap: wrap; */
+    gap: 10px; 
+    /* justify-content: flex-start; */
 }
 .delete{
     cursor: pointer;
@@ -136,7 +139,7 @@
     background-color: aliceblue;
     border: 1px solid gray;
     padding: 20px;
-    flex: 1 1 200px;
+    flex: 0 0 calc(33.333% - 10px);
     position: relative;
 }
 .dbbcg{
