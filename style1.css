@@ -1,3 +1,8 @@
+@media (max-width: 768px) {
+.data {
+    grid-template-columns: repeat(1, 1fr);
+}
+}
 .lang{
     position: fixed;
     top: 1vh;
@@ -12,6 +17,8 @@
     background-color: rgba(0, 0, 0, 0.822);
 }
 .button{
+    font-size: 50px; 
+    color: chartreuse;
     width: 400px;
     height: 400px;
     background-image: url(business.png);
@@ -20,6 +27,8 @@
     right: 5vw;
 }
 .img{
+    font-size: 50px; 
+    color: chartreuse;
     width: 400px;
     height: 400px;
     background-image: url(work.png);
@@ -36,38 +45,17 @@
 .bady{
     background-color: rgba(0, 0, 0, 0.692);
 }
-.shop{
-    color: rgb(60, 255, 0);
+.form{
     position: fixed;
     top: 30vh;
-    left: 43vw;
+    left: 44vw;
 }
-.name{
- position: fixed;
-    top: 32vh;
-    left: 43vw;   
+.shop{
+    color: rgb(60, 255, 0);
 }
 .phone{
      color: rgb(60, 255, 0);
-    position: fixed;
-    top: 35vh;
-    left: 43vw;
-}
-.tel{
-    position: fixed;
-    top: 37vh;
-    left: 43vw;
-}
-.option{
-    position: fixed;
-    top:51vh;
-    left: 52.2vw;
-}
-.city{
-    position: fixed;
-    top:51vh;
-    left: 43vw;
-}
+  }
 .hello{
     color: rgb(30, 255, 0);
     position: fixed;
@@ -82,49 +70,23 @@
 }
 .whats{
     color: rgb(30, 255, 0);
-    position: fixed;
-    top: 40vh;
-    left: 43vw;
-}
-.whats_app{
- position: fixed;
- top: 42vh;
- left: 43vw;   
 }
 .num{
     color: rgb(30, 255, 0);
-    position: fixed;
-    top: 45vh;
-    left: 43vw;
-}
-.telo{
- position: fixed;
- top: 47vh;
- left: 43vw;
 }
 .Next{
     position: fixed;
-    top: 60vh;
+    top: 65vh;
     left: 50vw;
 }
 .tipe{
     color: rgb(30, 255, 0);
-    position: fixed;
-    top: 25vh;
-    left: 43vw;
-}
-.type{
-    position: fixed;
-    top: 27vh;
-    left: 43vw;
 }
 .data{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-flow: row;
-    /* flex-wrap: wrap; */
     gap: 10px; 
-    /* justify-content: flex-start; */
 }
 .delete{
     cursor: pointer;
@@ -144,4 +106,56 @@
 }
 .dbbcg{
     background-color: rgba(0, 0, 0, 0.685);
+}
+@media(max-width: 768px) {
+    .tag{
+    font-size: 20px;
+    color: rgb(51, 255, 0);
+    position: fixed;
+    top: 30px;
+    left: 80px;
+}
+.button{
+    width: 420px;
+    height: 200px;
+    background-image: url(business.png);
+    position: fixed;
+    top: 300px;
+    right: 10px;
+}
+.img{
+    width: 420px;
+    height: 200px;
+    background-image: url(work.png);
+    position: fixed;
+    top: 600px;
+    left: 10px;  
+}
+.form{
+    position: fixed;
+    top: 300px;
+    left: 100px;
+}
+.Next{
+    position: fixed;
+    top: 620px;
+    left: 190px;
+}
+.hello{
+    color: rgb(30, 255, 0);
+    position: fixed;
+    top: 10px;
+    left: 190px;
+}
+.ras{
+    color: rgb(30, 255, 0);
+    position: fixed;
+    top: 13vh;
+    left: 100px;
+}
+.langs{
+    position: fixed;
+    top: 420px;
+    left: 150px;
+}
 }

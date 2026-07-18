@@ -7,23 +7,25 @@
     <link rel="stylesheet" href="style1.css">
 </head>
 <body class="bady">
+    <div>
      <select id="lang" class="langs" style="font-size: 0%;">
         <option value="en">English</option>
         <option value="ar">العربية</option>
      </select>
     <h1 class="hello" data-i18n="hello">Hello</h1>
     <h3 class="ras" data-i18n="storeLocation">Enter Your Store Location Details</h3>
+    <div class="form">
     <form onsubmit="return good()">
-        <label for="e" class="tipe" data-i18n="storeType">Enter Store type</label>
-        <input id="e" class="type" type="text" name="store_type" style="font-size: 20px" autocapitalize="words" autocorrect="off" autocomplete="text" required>
-     <label for="a" class="shop" data-i18n="shopName">enter your shop name</label>
-        <input id="a" style="font-size: 20px;" class="name" type="text" name="shop_name" autocapitalize="words" autocorrect="off" autocomplete="text" required>
-     <label for="b" class="phone" data-i18n="phoneNumber">enter your phone number</label>
-        <input id="b" inputmode="numeric" pattern="^01[0-2,5][0-9]{8}$" oninput='this.value = this.value.replace(/[^0-9]/g, "")' style="font-size: 20px;" class="tel" type="tel" name="mobile_phone" autocomplete="tel" required>
-        <label for="c" class="whats" data-i18n="whatsApp">WhatsApp Number</label>
-        <input id="c" inputmode="numeric" pattern="^01[0-2,5][0-9]{8}$" oninput='this.value = this.value.replace(/[^0-9]/g, "")' style="font-size: 20px;" class="whats_app" type="tel" name="whatsapp_number" autocomplete="tel" required>
-        <label for="d" class="num" data-i18n="ExpectedSalary">Expected Salary</label>
-        <input id="d" style="font-size: 20px;" class="telo" type="number" name="expected_salary" autocomplete="number" required>
+        <label for="e" class="tipe" data-i18n="storeType">Enter Store type</label><br>
+        <input id="e" class="type" type="text" name="store_type" style="font-size: 20px" autocapitalize="words" autocorrect="off" autocomplete="text" required><br>
+     <label for="a" class="shop" data-i18n="shopName">enter your shop name</label><br>
+        <input id="a" style="font-size: 20px;" class="name" type="text" name="shop_name" autocapitalize="words" autocorrect="off" autocomplete="text" required><br>
+     <label for="b" class="phone" data-i18n="phoneNumber">enter your phone number</label><br>
+        <input id="b" inputmode="numeric" pattern="^01[0-2,5][0-9]{8}$" oninput='this.value = this.value.replace(/[^0-9]/g, "")' style="font-size: 20px;" class="tel" type="tel" name="mobile_phone" autocomplete="tel" required><br>
+        <label for="c" class="whats" data-i18n="whatsApp">WhatsApp Number</label><br>
+        <input id="c" inputmode="numeric" pattern="^01[0-2,5][0-9]{8}$" oninput='this.value = this.value.replace(/[^0-9]/g, "")' style="font-size: 20px;" class="whats_app" type="tel" name="whatsapp_number" autocomplete="tel" required><br>
+        <label for="d" class="num" data-i18n="ExpectedSalary">Expected Salary</label><br>
+        <input id="d" style="font-size: 20px;" class="telo" type="number" name="expected_salary" autocomplete="number" required><br>
         <select id="governorate" class="option" name="governorate" required>
             <option value="" disabled selected hidden data-i18n="Selectgovernorate">Select governorate</option>
             <option value="alex">Alexandria</option>
@@ -59,9 +61,11 @@
         </select>
         <button class="Next" style="font-size: 30px;" data-i18n="next">Next</button>
     </form>
+    </div>
     <button data-i18n="Manage" type="button" onclick="window.location.href = 'complete.html'">Manage Offers</button>
     <script src="translations.js"></script>
     <script src="lang.js"></script>
     <script src="chose.js"></script>
+    </div>
 </body>
 </html>
