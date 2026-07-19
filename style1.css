@@ -158,4 +158,10 @@
     top: 420px;
     left: 150px;
 }
+.data{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-flow: row;
+    gap: 10px; 
+}
 }
