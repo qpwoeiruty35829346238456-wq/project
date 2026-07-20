@@ -2,8 +2,6 @@ const translations = {
     en: {
         trans: "Business World",
         taag: "Welcome to the Business World",
-        Worker: "workers wanted",
-        jop: "jop seeker",
         hello: "Hello",
         storeLocation: "Enter Your Store Location Details",
         storeType: "Enter Store type",
@@ -21,8 +19,6 @@ const translations = {
     ar: {
         trans: "عالم الاعمال",
         taag: "مرحبا بك فى عالم الاعمال",
-        Worker: "مطلوب عمال",
-        jop: "باحث عن عمل",
         hello: "مرحبا",
         storeLocation: "ادخل تفاصيل موقع متجرك",
         storeType: "ادخل نوع المتجر",
