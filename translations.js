@@ -14,7 +14,9 @@ const translations = {
         next: "Next",
         Manage: "Manage",
         Selectgovernorate: "Select governorate",
-        Selectcity: "Select city"
+        Selectcity: "Select city",
+        searchJop: "click the image to search for a jop",
+        search: "click the image to search for Workers"
     },
     ar: {
         trans: "عالم الاعمال",
@@ -31,7 +33,9 @@ const translations = {
         next: "التالى",
         Manage: "ادارة العروض",
         Selectgovernorate: "اختر المحافظة",
-        Selectcity: "اختر المدينة"
+        Selectcity: "اختر المدينة",
+        searchJop: "اضغط على الصورة للبحث عن عمل",
+        search: "اضغط على الصورة للبحث عن عمال"
     }
 }
 const governorates = {

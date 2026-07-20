@@ -1,43 +1,52 @@
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 .data {
     grid-template-columns: repeat(1, 1fr);
 }
-}
+} */
 .lang{
     position: fixed;
     top: 1vh;
     right: 1vw;
 }
 .langs{
+    display: none;
     position: fixed;
-    top: 49vh;
+    top: 15vh;
     left: 54vw;
 }
 .oll{
-    background-color: rgba(0, 0, 0, 0.822);
+    background-color: #f6f8fb;
 }
 .button{
-    font-size: 50px; 
-    color: chartreuse;
     width: 400px;
     height: 400px;
     background-image: url(business.png);
+    border-radius: 50px;
     position: fixed;
     top: 47vh;
     right: 5vw;
 }
 .img{
-    font-size: 50px; 
-    color: chartreuse;
     width: 400px;
     height: 400px;
     background-image: url(work.png);
+    border-radius: 50px;
     position: fixed;
     top: 47vh;
     left: 5vw;  
 }
+.searchJop {
+    position: fixed;
+    top: 820px;
+    left: 150px;
+}
+.search{
+    position: fixed;
+    top: 820px;
+    right: 150px;
+}
 .tag{
-    color: rgb(51, 255, 0);
+    color: #123d57;
     position: fixed;
     top: 5vh;
     left: 33vw;
@@ -107,16 +116,37 @@
 .dbbcg{
     background-color: rgba(0, 0, 0, 0.685);
 }
-@media(max-width: 768px) {
-    .tag{
-    font-size: 20px;
-    color: rgb(51, 255, 0);
+.mhaf{
+    position: fixed;
+    top: 15px;
+    right: 15px;
+}
+.mdn{
+    position: fixed;
+    top: 15px;
+    left: 15px;
+}
+.zero{
+    display: none;
+}
+.mosta{
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+.back{
+    background-color: rgba(0, 0, 0, 0.24);
+}
+/* @media (min-width: 0px) and (max-width: 320px) {}
+@media (min-width: 320px) and (max-width: 375px) {}
+@media (min-width: 375px) and (max-width: 425px) {}
+@media (min-width: 425px) and (max-width: 768px) {
+.tag{
     position: fixed;
     top: 30px;
-    left: 80px;
+    left: 90px;
 }
 .button{
-    width: 420px;
+    width: 580px;
     height: 200px;
     background-image: url(business.png);
     position: fixed;
@@ -124,12 +154,10 @@
     right: 10px;
 }
 .img{
-    width: 420px;
+     width: 580px;
     height: 200px;
-    background-image: url(work.png);
     position: fixed;
-    top: 600px;
-    left: 10px;  
+    top: 580px;
 }
 .form{
     position: fixed;
@@ -165,3 +193,5 @@
     gap: 10px; 
 }
 }
+@media (min-width: 768px) and (max-width: 1024px) {}
+@media (min-width: 1024px) and (max-width: 1440px) {} */
