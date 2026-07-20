@@ -131,10 +131,11 @@
 }
 .mosta{
     height: 30px;
-    background-color: rgba(0, 0, 0, 0.479);
+    background-color: rgba(26, 5, 214, 0.938);
+    border-radius: 15px;
 }
 .back{
-    background-color: rgba(0, 0, 0, 0.24);
+    background-color: rgb(151, 147, 218);
 }
 /* @media (min-width: 0px) and (max-width: 320px) {}
 @media (min-width: 320px) and (max-width: 375px) {}
