@@ -1,8 +1,3 @@
-/* @media (max-width: 768px) {
-.data {
-    grid-template-columns: repeat(1, 1fr);
-}
-} */
 .lang{
     position: fixed;
     top: 1vh;
@@ -52,12 +47,34 @@
     left: 33vw;
 }
 .bady{
-    background-color: rgba(0, 0, 0, 0.692);
+    background-color: rgb(168, 167, 167);
 }
 .form{
+    border-radius: 50px;
+    height: 380px;
+    width: 300px;
+    padding-left: 50px;
+    background-color: rgb(255, 255, 255);
     position: fixed;
     top: 30vh;
-    left: 44vw;
+    left: 39.7vw;
+}
+.quition{
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);;
+    height: 130px;
+    width: 320px;
+    position: fixed;
+    left: 520px;
+    top: 50px;
+}
+.wasl{
+    background-color: rgb(255, 255, 255);
+    width: 20px;
+    height: 100px;
+    position: fixed;
+    left: 670px;
+    top: 180px;
 }
 .shop{
     color: rgb(60, 255, 0);
@@ -95,18 +112,19 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-flow: row;
-    gap: 10px; 
+    gap: 10px;
 }
 .delete{
     cursor: pointer;
     position: absolute;
-    top: .5vh;
-    right: .5vw;
+    top: 1vh.5;
+    right: 1.5vw;
 }
 .size{
     font-size: 27px;
 }
 .offer_box{
+    border-radius: 50px;
     background-color: aliceblue;
     border: 1px solid gray;
     padding: 20px;
@@ -137,62 +155,72 @@
 .back{
     background-color: rgb(151, 147, 218);
 }
-/* @media (min-width: 0px) and (max-width: 320px) {}
-@media (min-width: 320px) and (max-width: 375px) {}
-@media (min-width: 375px) and (max-width: 425px) {}
-@media (min-width: 425px) and (max-width: 768px) {
-.tag{
-    position: fixed;
-    top: 30px;
-    left: 90px;
+html[dir = "rtl"] .tag {
+    left: 500px;
 }
-.button{
-    width: 580px;
-    height: 200px;
-    background-image: url(business.png);
-    position: fixed;
-    top: 300px;
-    right: 10px;
+html[dir = "rtl"] .hello {
+    left: 645px;
 }
-.img{
-     width: 580px;
-    height: 200px;
-    position: fixed;
-    top: 580px;
+html[dir = "rtl"] .ras {
+    left: 600px;
 }
-.form{
+html[dir = "rtl"] .tipe {
+    position: fixed;
+    top: 280px;
+    right: 470px;
+}
+html[dir = "rtl"] .type {
     position: fixed;
     top: 300px;
-    left: 100px;
+    left: 550px;
 }
-.Next{
+html[dir = "rtl"] .shop {
     position: fixed;
-    top: 620px;
-    left: 190px;
+    top: 330px;
+    right: 470px;
 }
-.hello{
-    color: rgb(30, 255, 0);
+html[dir = "rtl"] .name {
     position: fixed;
-    top: 10px;
-    left: 190px;
+    top: 350px;
+    left: 550px;
 }
-.ras{
-    color: rgb(30, 255, 0);
+html[dir = "rtl"] .phone {
     position: fixed;
-    top: 13vh;
-    left: 100px;
+    top: 380px;
+    right: 470px;
 }
-.langs{
+html[dir = "rtl"] .tel {
     position: fixed;
-    top: 420px;
-    left: 150px;
+    top: 397px;
+    left: 550px;
 }
-.data{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-auto-flow: row;
-    gap: 10px; 
+html[dir = "rtl"] .whats {
+    position: fixed;
+    top: 430px;
+    right: 470px;
 }
+html[dir = "rtl"] .whats_app {
+    position: fixed;
+    top: 450px;
+    left: 550px;
 }
-@media (min-width: 768px) and (max-width: 1024px) {}
-@media (min-width: 1024px) and (max-width: 1440px) {} */
+html[dir = "rtl"] .num {
+    position: fixed;
+    top: 480px;
+    right: 470px;
+}
+html[dir = "rtl"] .telo {
+    position: fixed;
+    top: 500px;
+    left: 550px;
+}
+html[dir = "rtl"] .option {
+    position: fixed;
+    top: 533px;
+    left: 550px;
+}
+html[dir = "rtl"] .city {
+    position: fixed;
+    top: 533px;
+    right: 470px;
+}

@@ -12,7 +12,6 @@ function renderOffers() {
    "whatsapp number: " + o.whatsapp + "<br>" +
    "salary: " + o.salary + "<br>" +
    "governorate: " + (governorates[lang][o.governorate] || o.governorate) + "<br>" +
-   // "governorate: " + o.governorate + "<br>" +
    "city: " + o.city + "<br>" +
    "</span>" +
    "</div>"
