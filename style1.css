@@ -1,7 +1,7 @@
 .lang{
     position: fixed;
-    top: 1vh;
-    right: 1vw;
+    top: 1%;
+    right: 1%;
 }
 .langs{
     display: none;
@@ -13,100 +13,115 @@
     background-color: #78a3e2;
 }
 .button{
-    width: 400px;
-    height: 400px;
+    width: 35%;
+    height: 45%;
     background-image: url(business.png);
     border-radius: 50px;
     position: fixed;
-    top: 47vh;
-    right: 5vw;
+    top: 48%;
+    right: 5%;
 }
 .img{
-    width: 400px;
-    height: 400px;
+    width: 35%;
+    height: 45%;
     background-image: url(work.png);
     border-radius: 50px;
     position: fixed;
-    top: 47vh;
-    left: 5vw;  
+    top: 48%;
+    left: 5%;  
 }
 .searchJop {
     position: fixed;
-    top: 820px;
-    left: 150px;
+    top: 92%;
+    left: 12%;
 }
 .search{
     position: fixed;
-    top: 820px;
-    right: 150px;
+    top: 92%;
+    right: 12%;
 }
 .tag{
     color: #123d57;
     position: fixed;
-    top: 5vh;
-    left: 33vw;
+    top: 3%;
+    left: 33%;
 }
 .bady{
     background-color: rgb(168, 167, 167);
 }
 .form{
     border-radius: 50px;
-    height: 380px;
-    width: 300px;
-    padding-left: 50px;
+    height: 41%;
+    width: 23%;
+    padding-left: 3%;
     background-color: rgb(255, 255, 255);
     position: fixed;
-    top: 30vh;
-    left: 39.7vw;
+    top: 30%;
+    left: 40%;
 }
 .quition{
     border-radius: 50px;
     background-color: rgb(255, 255, 255);;
-    height: 130px;
-    width: 320px;
+    height: 21%;
+    width: 25%;
     position: fixed;
-    left: 520px;
-    top: 50px;
+    left: 40%;
+    top: 3%;
 }
 .wasl{
     background-color: rgb(255, 255, 255);
     width: 20px;
     height: 100px;
     position: fixed;
-    left: 670px;
-    top: 180px;
+    left: 52%;
+    top: 20%;
 }
 .shop{
     color: rgb(60, 255, 0);
+    position: fixed;
+    top: 35%;
+    left: 43%;
 }
 .phone{
      color: rgb(60, 255, 0);
+     position: fixed;
+     top: 40.2%;
+     left: 43%;
   }
 .hello{
     color: rgb(30, 255, 0);
     position: fixed;
-    top: 5vh;
-    left: 50vw;
+    top: 4%;
+    left: 49.8%;
 }
 .ras{
     color: rgb(30, 255, 0);
     position: fixed;
-    top: 13vh;
-    left: 42.8vw;
+    top: 12%;
+    left: 42%;
 }
 .whats{
     color: rgb(30, 255, 0);
+    position: fixed;
+    top: 45.5%;
+    left: 43%;
 }
 .num{
     color: rgb(30, 255, 0);
+    position: fixed;
+    top: 51%;
+    left: 43%;
 }
 .Next{
     position: fixed;
-    top: 65vh;
-    left: 50vw;
+    top: 65%;
+    left: 50%;
 }
 .tipe{
     color: rgb(30, 255, 0);
+    position: fixed;
+    top: 30%;
+    left: 43%;
 }
 .data{
     display: grid;
@@ -126,8 +141,8 @@
 .offer_box{
     border-radius: 50px;
     background-color: aliceblue;
-    border: 1px solid gray;
-    padding: 20px;
+    border: .1rem solid gray;
+    padding: 2rem;
     flex: 0 0 calc(33.333% - 10px);
     position: relative;
 }
