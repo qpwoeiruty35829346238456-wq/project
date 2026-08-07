@@ -5,16 +5,19 @@
 }
 .langs{
     display: none;
-    position: fixed;
-    top: 15vh;
-    left: 54vw;
 }
 .oll{
     background-color: #78a3e2;
 }
 .button{
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 35%;
+    min-width: 150px;
+    max-width: 400px;
     height: 45%;
+    min-height: 150px;
+    max-height: 400px;
     background-image: url(business.png);
     border-radius: 50px;
     position: fixed;
@@ -22,8 +25,14 @@
     right: 5%;
 }
 .img{
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 35%;
+    min-width: 150px;
+    max-width: 400px;
     height: 45%;
+    min-height: 150px;
+    max-height: 400px;
     background-image: url(work.png);
     border-radius: 50px;
     position: fixed;
@@ -31,6 +40,7 @@
     left: 5%;  
 }
 .searchJop {
+    font-size: 16px;
     position: fixed;
     top: 92%;
     left: 12%;
@@ -47,12 +57,21 @@
     left: 33%;
 }
 .bady{
-    background-color: rgb(168, 167, 167);
+    background-image: url(finly.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
 }
 .form{
     border-radius: 50px;
-    height: 41%;
     width: 23%;
+    min-width: 180px;
+    max-width: 350px;
+    height: 41%;
+    min-height: 250px;
+    max-height: 500px;
     padding-left: 3%;
     background-color: rgb(255, 255, 255);
     position: fixed;
@@ -62,20 +81,28 @@
 .quition{
     border-radius: 50px;
     background-color: rgb(255, 255, 255);;
-    height: 21%;
     width: 25%;
+    min-width: 180px;
+    max-width: 350px;
+    height: 21%;
+    min-height: 120px;
+    max-height: 280px;
     position: fixed;
     left: 40%;
     top: 3%;
 }
-.wasl{
+/* .wasl{
     background-color: rgb(255, 255, 255);
-    width: 20px;
-    height: 100px;
+    width: 2%;
+    min-width: 15px;
+    max-width: 25px;
+    height: 12%;
+    min-height: 70px;
+    max-height: 130px;
     position: fixed;
     left: 52%;
     top: 20%;
-}
+} */
 .shop{
     color: rgb(60, 255, 0);
     position: fixed;
@@ -132,7 +159,7 @@
 .delete{
     cursor: pointer;
     position: absolute;
-    top: 1vh.5;
+    top: 1.5vh;
     right: 1.5vw;
 }
 .size{
