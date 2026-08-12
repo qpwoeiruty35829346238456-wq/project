@@ -9,52 +9,78 @@
 .oll{
     background-color: #78a3e2;
 }
-.button{
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 35%;
-    min-width: 150px;
-    max-width: 400px;
-    height: 45%;
-    min-height: 150px;
-    max-height: 400px;
-    background-image: url(business.png);
-    border-radius: 50px;
+.tag{
+    font-size: clamp(25px, 2.6vw, 70px);
+    color: #123d57;
+    position: fixed;
+    top: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+.test{
+    width: 31.5%;
+    max-width: 1400px;
+    height: 48%;
+    max-height: 1445px;
     position: fixed;
     top: 48%;
     right: 5%;
 }
+.end{
+    width: 31.5%;
+    max-width: 1400px;
+    height: 48%;
+    max-height: 1445px;
+    position: fixed;
+    top: 48%;
+    left: 5%;
+}
+.button{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-width: 150px;
+    max-width: 1400px;
+    height: 95%;
+    min-height: 150px;
+    max-height: 1400px;
+    background-image: url(business.png);
+    border-radius: 50px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
 .img{
     background-size: cover;
     background-repeat: no-repeat;
-    width: 35%;
+    width: 100%;
     min-width: 150px;
-    max-width: 400px;
-    height: 45%;
+    max-width: 1400px;
+    height: 95%;
     min-height: 150px;
-    max-height: 400px;
+    max-height: 1400px;
     background-image: url(work.png);
     border-radius: 50px;
-    position: fixed;
-    top: 48%;
-    left: 5%;  
+    position: absolute;
+    top: 0%;
+    right: 0%;
 }
 .searchJop {
-    font-size: 16px;
-    position: fixed;
-    top: 92%;
-    left: 12%;
+    font-size: clamp(16px, 1.3vw, 50px);
+    white-space: nowrap;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .search{
-    position: fixed;
-    top: 92%;
-    right: 12%;
-}
-.tag{
-    color: #123d57;
-    position: fixed;
-    top: 3%;
-    left: 33%;
+    font-size: clamp(16px, 1.3vw, 50px);
+    white-space: nowrap;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .bady{
     background-image: url(finly.png);
@@ -64,95 +90,129 @@
     background-attachment: fixed;
     overflow-x: hidden;
 }
+.quition{
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    min-width: 250px;
+    max-width: 1350px;
+    height: 21%;
+    min-height: 120px;
+    max-height: 1280px;
+    position: fixed;
+    left: 50%;
+    top: 3%;
+    transform: translateX(-50%);
+}
+.hello{
+    font-size: clamp(30px, 3vw, 100px);
+    color: rgb(30, 255, 0);
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.ras{
+    font-size: clamp(15px, 1.4vw, 120px);
+    color: rgb(30, 255, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
 .form{
     border-radius: 50px;
-    width: 23%;
-    min-width: 180px;
-    max-width: 350px;
+    width: 25%;
+    min-width: 250px;
+    max-width: 1350px;
     height: 41%;
-    min-height: 250px;
-    max-height: 500px;
-    padding-left: 3%;
+    min-height: 350px;
+    max-height: 1500px;
     background-color: rgb(255, 255, 255);
     position: fixed;
     top: 30%;
-    left: 40%;
-}
-.quition{
-    border-radius: 50px;
-    background-color: rgb(255, 255, 255);;
-    width: 25%;
-    min-width: 180px;
-    max-width: 350px;
-    height: 21%;
-    min-height: 120px;
-    max-height: 280px;
-    position: fixed;
-    left: 40%;
-    top: 3%;
-}
-/* .wasl{
-    background-color: rgb(255, 255, 255);
-    width: 2%;
-    min-width: 15px;
-    max-width: 25px;
-    height: 12%;
-    min-height: 70px;
-    max-height: 130px;
-    position: fixed;
-    left: 52%;
-    top: 20%;
-} */
-.shop{
-    color: rgb(60, 255, 0);
-    position: fixed;
-    top: 35%;
-    left: 43%;
-}
-.phone{
-     color: rgb(60, 255, 0);
-     position: fixed;
-     top: 40.2%;
-     left: 43%;
-  }
-.hello{
-    color: rgb(30, 255, 0);
-    position: fixed;
-    top: 4%;
-    left: 49.8%;
-}
-.ras{
-    color: rgb(30, 255, 0);
-    position: fixed;
-    top: 12%;
-    left: 42%;
-}
-.whats{
-    color: rgb(30, 255, 0);
-    position: fixed;
-    top: 45.5%;
-    left: 43%;
-}
-.num{
-    color: rgb(30, 255, 0);
-    position: fixed;
-    top: 51%;
-    left: 43%;
-}
-.Next{
-    position: fixed;
-    top: 65%;
     left: 50%;
+    transform: translateX(-50%);
 }
 .tipe{
     color: rgb(30, 255, 0);
-    position: fixed;
-    top: 30%;
-    left: 43%;
+    position: absolute;
+    top: 3.1%;
+    left: 11%;
+}
+.type{
+    font-size: clamp(15px, 1.5vw, 150px);
+    position: absolute;
+    top: 8%;
+    left: 11%;
+}
+.shop{
+    color: rgb(60, 255, 0);
+    position: absolute;
+    top: 16%;
+    left: 11%;
+}
+.name{
+    font-size: clamp(15px, 1.5vw, 150px);
+    position: absolute;
+    top: 21%;
+    left: 11%;
+}
+.phone{
+     color: rgb(60, 255, 0);
+     position: absolute;
+     top: 29%;
+     left: 11%;
+}
+.tel{
+    font-size: clamp(15px, 1.5vw, 150px);
+    position: absolute;
+    top: 34%;
+    left: 11%;
+}
+.whats{
+    color: rgb(30, 255, 0);
+    position: absolute;
+    top: 42%;
+    left: 11%;
+}
+.whats_app{
+    font-size: clamp(15px, 1.5vw, 150px);
+    position: absolute;
+    top: 47%;
+    left: 11%;
+}
+.num{
+    color: rgb(30, 255, 0);
+    position: absolute;
+    top: 55%;
+    left: 11%;
+}
+.telo{
+    font-size: clamp(15px, 1.5vw, 150px);
+    position: absolute;
+    top: 60%;
+    left: 11%;
+}
+.option{
+    position: absolute;
+    top: 70%;
+    left: 11%;
+}
+.city{
+    position: absolute;
+    top: 70%;
+    left: 62%;
+}
+.Next{
+    position: absolute;
+    top: 85%;
+    left: 39%;
 }
 .data{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-auto-flow: row;
     gap: 10px;
 }
@@ -170,7 +230,7 @@
     background-color: aliceblue;
     border: .1rem solid gray;
     padding: 2rem;
-    flex: 0 0 calc(33.333% - 10px);
+    /* flex: 0 0 calc(33.333% - 10px); */
     position: relative;
 }
 .dbbcg{
@@ -190,79 +250,415 @@
     display: none;
 }
 .mosta{
-    height: 30px;
+    height: 32px;
     background-color: rgba(26, 5, 214, 0.938);
-    border-radius: 15px;
 }
 .back{
     background-color: rgb(151, 147, 218);
 }
 html[dir = "rtl"] .tag {
-    left: 500px;
+    left: 50%;
 }
 html[dir = "rtl"] .hello {
-    left: 645px;
+    left: 50%;
 }
 html[dir = "rtl"] .ras {
-    left: 600px;
+    left: 50%;
 }
 html[dir = "rtl"] .tipe {
-    position: fixed;
-    top: 280px;
-    right: 470px;
+    position: absolute;
+    top: 4%;
+    right: 11%;
 }
 html[dir = "rtl"] .type {
-    position: fixed;
-    top: 300px;
-    left: 550px;
+    position: absolute;
+    top: 9%;
+    left: 11%;
 }
 html[dir = "rtl"] .shop {
-    position: fixed;
-    top: 330px;
-    right: 470px;
+    position: absolute;
+    top: 17%;
+    right: 11%;
 }
 html[dir = "rtl"] .name {
-    position: fixed;
-    top: 350px;
-    left: 550px;
+    position: absolute;
+    top: 23%;
+    left: 11%;
 }
 html[dir = "rtl"] .phone {
-    position: fixed;
-    top: 380px;
-    right: 470px;
+    position: absolute;
+    top: 32%;
+    right: 11%;
 }
 html[dir = "rtl"] .tel {
-    position: fixed;
-    top: 397px;
-    left: 550px;
+    position: absolute;
+    top: 38%;
+    left: 11%;
 }
 html[dir = "rtl"] .whats {
-    position: fixed;
-    top: 430px;
-    right: 470px;
+    position: absolute;
+    top: 47%;
+    right: 11%;
 }
 html[dir = "rtl"] .whats_app {
-    position: fixed;
-    top: 450px;
-    left: 550px;
+    position: absolute;
+    top: 52%;
+    left: 11%;
 }
 html[dir = "rtl"] .num {
-    position: fixed;
-    top: 480px;
-    right: 470px;
+    position: absolute;
+    top: 61%;
+    right: 11%;
 }
 html[dir = "rtl"] .telo {
-    position: fixed;
-    top: 500px;
-    left: 550px;
+    position: absolute;
+    top: 67%;
+    left: 11%;
 }
 html[dir = "rtl"] .option {
-    position: fixed;
-    top: 533px;
-    left: 550px;
+    position: absolute;
+    top: 76%;
+    left: 11%;
 }
 html[dir = "rtl"] .city {
+    position: absolute;
+    top: 76%;
+    right: 11%;
+}
+@media (max-width: 768px) {
+.tag{
+    font-size: clamp(22px, 3vw, 50px);
     position: fixed;
-    top: 533px;
-    right: 470px;
+    top: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.test{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 3000px;
+    height: 33%;
+    max-height: 445px;
+    position: fixed;
+    top: 15%;
+    left: 0%;
+}
+.end{
+    width: 100%;
+    max-width: 3000px;
+    height: 33%;
+    max-height: 445px;
+    position: fixed;
+    top: 56%;
+    left: 0%;
+}
+.button{
+    border-radius: 0px;
+    width: 100%;
+    min-width: 300px;
+    max-width: 1000px;
+    height: 40%;
+    min-height: 220px;
+    max-height: 1000px;
+    position: absolute;
+    top: 2%;
+    left: 0%;
+    transform: translateY(23%);
+}
+.img{
+    border-radius: 0px;
+    width: 100%;
+    min-width: 300px;
+    max-width: 1000px;
+    height: 40%;
+    min-height: 220px;
+    max-height: 1000px;
+    position: absolute;
+    top: 2%;
+    left: 0%;
+    transform: translateY(23%);
+}
+.searchJop {
+    font-size: clamp(20px, 2vw, 25px);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateX(0%);
+}
+.search{
+    font-size: clamp(20px, 2vw, 25px);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateX(0%);
+}
+.ras{
+    font-size: clamp(15px, 1vw, 10px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.data{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-flow: row;
+    gap: 10px;
+}
+html[dir = "rtl"] .tag {
+    left: 50%;
+}
+html[dir = "rtl"] .test {
+    right: 0%;
+}
+html[dir = "rtl"] .button {
+    right: 0%;
+}
+html[dir = "rtl"] .searchJop {
+    right: 0.3%;
+}
+html[dir = "rtl"] .search {
+    right: 0.3%;
+}
+html[dir = "rtl"] .hello {
+    left: 50%;
+}
+html[dir = "rtl"] .ras {
+    left: 50%;
+}
+@media (max-height: 630px) {
+.button{
+    border-radius: 0px;
+    width: 100%;
+    min-width: 300px;
+    max-width: 1000px;
+    height: 40%;
+    min-height: 200px;
+    max-height: 1000px;
+    position: absolute;
+    top: 2%;
+    left: 0%;
+    transform: translateY(23%);
+}
+.img{
+    border-radius: 0px;
+    width: 100%;
+    min-width: 300px;
+    max-width: 1000px;
+    height: 40%;
+    min-height: 200px;
+    max-height: 1000px;
+    position: absolute;
+    top: 2%;
+    left: 0%;
+    transform: translateY(23%);
+}
+}
+@media (max-height: 575px) {
+.button{
+    border-radius: 0px;
+    width: 100%;
+    min-width: 300px;
+    max-width: 1000px;
+    height: 40%;
+    min-height: 150px;
+    max-height: 1000px;
+    position: absolute;
+    top: 4%;
+    left: 0%;
+    transform: translateY(23%);
+}
+.img{
+    border-radius: 0px;
+    width: 100%;
+    min-width: 300px;
+    max-width: 1000px;
+    height: 40%;
+    min-height: 150px;
+    max-height: 1000px;
+    position: absolute;
+    top: 4%;
+    left: 0%;
+    transform: translateY(23%);
+}
+}
+@media (max-height: 430px) {
+.test{
+    box-sizing: border-box;
+    width: 50%;
+    min-width: 100px;
+    max-width: 3000px;
+    height: 33%;
+    min-height: 140px;
+    max-height: 445px;
+    position: fixed;
+    top: 42%;
+    left: 50%;
+}
+.end{
+    width: 50%;
+    max-width: 3000px;
+    height: 33%;
+    min-height: 140px;
+    max-height: 445px;
+    position: fixed;
+    top: 42%;
+    left: 0%;
+}
+.button{
+    border-radius: 0px;
+    width: 100%;
+    min-width: 200px;
+    max-width: 1000px;
+    height: 40%;
+    min-height: 220px;
+    max-height: 1000px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateY(-32%);
+}
+.img{
+    border-radius: 0px;
+    width: 100%;
+    min-width: 200px;
+    max-width: 1000px;
+    height: 40%;
+    min-height: 220px;
+    max-height: 1000px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateY(-32%);
+}
+.searchJop {
+    font-size: clamp(13px, 2vw, 25px);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.search{
+    font-size: clamp(13px, 2vw, 25px);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.quition{
+    width: 25%;
+    min-width: 250px;
+    max-width: 350px;
+    height: 21%;
+    min-height: 80px;
+    max-height: 280px;
+    position: fixed;
+    left: 50%;
+    top: 1%;
+    transform: translateX(-50%);
+}
+.hello{
+    color: rgb(30, 255, 0);
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.ras{
+    font-size: clamp(15px, 1.4vw, 20px);
+    color: rgb(30, 255, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+.form{
+    border-radius: 50px;
+    width: 100%;
+    min-width: 440px;
+    height: 41%;
+    min-height: 200px;
+    max-height: 500px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.tipe{
+    color: rgb(30, 255, 0);
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.type{
+    font-size: clamp(15px, 1.5vw, 35px);
+    position: absolute;
+    top: 16%;
+    left: 5%;
+}
+.shop{
+    color: rgb(60, 255, 0);
+    position: absolute;
+    top: 27%;
+    left: 5%;
+}
+.name{
+    font-size: clamp(15px, 1.5vw, 35px);
+    position: absolute;
+    top: 37%;
+    left: 5%;
+}
+.phone{
+     color: rgb(60, 255, 0);
+     position: absolute;
+     top: 50%;
+     left: 5%;
+}
+.tel{
+    font-size: clamp(15px, 1.5vw, 35px);
+    position: absolute;
+    top: 58%;
+    left: 5%;
+}
+.whats{
+    color: rgb(30, 255, 0);
+    position: absolute;
+    top: 5%;
+    left: 51%;
+}
+.whats_app{
+    font-size: clamp(15px, 1.5vw, 35px);
+    position: absolute;
+    top: 16%;
+    left: 51%;
+}
+.num{
+    color: rgb(30, 255, 0);
+    position: absolute;
+    top: 27%;
+    left: 51%;
+}
+.telo{
+    font-size: clamp(15px, 1.5vw, 35px);
+    position: absolute;
+    top: 37%;
+    left: 51%;
+}
+.option{
+    position: absolute;
+    top: 59%;
+    left: 51%;
+}
+.city{
+    position: absolute;
+    top: 59%;
+    left: 80%;
+}
+.Next{
+    position: absolute;
+    top: 78%;
+    left: 39%;
+}
+}
 }
