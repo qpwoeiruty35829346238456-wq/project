@@ -1,4 +1,5 @@
 /* https://plain-pine-b594.qpwoeiruty35829346238456.workers.dev */
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
 .lang{
     appearance: none;
     -webkit-appearance: none;
@@ -150,81 +151,135 @@
     left: 50%;
     transform: translateX(-50%);
 }
-.tipe{
-    color: rgb(30, 255, 0);
+.Tipe{
+    width: 78.2%;
+    height: 13%;
+    min-height: 45px;
     position: absolute;
     top: 3.1%;
     left: 11%;
 }
+.tipe{
+    color: rgb(30, 255, 0);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
 .type{
     font-size: clamp(15px, 1.5vw, 150px);
     position: absolute;
-    top: 8%;
-    left: 11%;
+    top: 41%;
+    left: 0%;
 }
-.shop{
-    color: rgb(60, 255, 0);
+.shop_name{
+    width: 78.2%;
+    height: 13%;
+    min-height: 45px;
     position: absolute;
     top: 16%;
     left: 11%;
 }
+.shop{
+    color: rgb(30, 255, 0);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
 .name{
     font-size: clamp(15px, 1.5vw, 150px);
     position: absolute;
-    top: 21%;
+    top: 41%;
+    left: 0%;
+}
+.telephone{
+    width: 78.2%;
+    height: 13%;
+    min-height: 45px;
+    position: absolute;
+    top: 29%;
     left: 11%;
 }
 .phone{
-     color: rgb(60, 255, 0);
-     position: absolute;
-     top: 29%;
-     left: 11%;
+    color: rgb(30, 255, 0);
+    position: absolute;
+    top: 0%;
+    left: 0%;
 }
 .tel{
     font-size: clamp(15px, 1.5vw, 150px);
     position: absolute;
-    top: 34%;
+    top: 41%;
+    left: 0%;
+}
+.what{
+    width: 78.2%;
+    height: 13%;
+    min-height: 45px;
+    position: absolute;
+    top: 42%;
     left: 11%;
 }
 .whats{
     color: rgb(30, 255, 0);
     position: absolute;
-    top: 42%;
-    left: 11%;
+    top: 0%;
+    left: 0%;
 }
 .whats_app{
     font-size: clamp(15px, 1.5vw, 150px);
     position: absolute;
-    top: 47%;
+    top: 41%;
+    left: 0%;
+}
+.telephoneNumber{
+    width: 78.2%;
+    height: 13%;
+    min-height: 45px;
+    position: absolute;
+    top: 55%;
     left: 11%;
 }
 .num{
     color: rgb(30, 255, 0);
     position: absolute;
-    top: 55%;
-    left: 11%;
+    top: 0%;
+    left: 0%;
 }
 .telo{
     font-size: clamp(15px, 1.5vw, 150px);
     position: absolute;
-    top: 60%;
+    top: 41%;
+    left: 0%;
+}
+.selectes{
+    width: 78.2%;
+    height: 5%;
+    min-height: 20px;
+    position: absolute;
+    top: 70%;
     left: 11%;
 }
 .option{
     position: absolute;
-    top: 70%;
-    left: 11%;
+    top: 0%;
+    left: 0%;
 }
 .city{
     position: absolute;
-    top: 70%;
-    left: 62%;
+    top: 0%;
+    right: 0%;
 }
 .Next{
     appearance: none;
     -webkit-appearance: none;
     font-size: clamp(8px, 1.2vw, 100px);
     font-family: inherit;
+    width: 6vw;
+    min-width: 70px;
+    max-width: 180px;
+    height: 3.2vw;
+    min-height: 35px;
+    max-height: 100px;
     position: absolute;
     top: 85%;
     left: 50%;
@@ -696,6 +751,14 @@ html[dir = "rtl"] .ras {
     transform: translateY(23%);
 }
 }
+}
+@media (max-width: 330px) {
+.Manage{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+}
 @media (max-height: 430px) {
 .test{
     box-sizing: border-box;
@@ -798,75 +861,117 @@ html[dir = "rtl"] .ras {
     left: 50%;
     transform: translateX(-50%);
 }
+.Tipe{
+    width: 40%;
+    height: 13%;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
 .tipe{
     color: rgb(30, 255, 0);
     position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 0%;
+    left: 0%;
 }
 .type{
-    font-size: clamp(15px, 1.5vw, 35px);
+    font-size: clamp(15px, 1.5vw, 150px);
     position: absolute;
-    top: 16%;
+    top: 41%;
+    left: 0%;
+}
+.shop_name{
+    width: 40%;
+    height: 13%;
+    position: absolute;
+    top: 30%;
     left: 5%;
 }
 .shop{
-    color: rgb(60, 255, 0);
+    color: rgb(30, 255, 0);
     position: absolute;
-    top: 27%;
-    left: 5%;
+    top: 0%;
+    left: 0%;
 }
 .name{
-    font-size: clamp(15px, 1.5vw, 35px);
+    font-size: clamp(15px, 1.5vw, 150px);
     position: absolute;
-    top: 37%;
+    top: 41%;
+    left: 0%;
+}
+.telephone{
+    width: 40%;
+    height: 13%;
+    position: absolute;
+    top: 50%;
     left: 5%;
 }
 .phone{
-     color: rgb(60, 255, 0);
-     position: absolute;
-     top: 50%;
-     left: 5%;
+    color: rgb(30, 255, 0);
+    position: absolute;
+    top: 0%;
+    left: 0%;
 }
 .tel{
-    font-size: clamp(15px, 1.5vw, 35px);
+    font-size: clamp(15px, 1.5vw, 150px);
     position: absolute;
-    top: 58%;
-    left: 5%;
+    top: 41%;
+    left: 0%;
+}
+.what{
+    width: 40%;
+    height: 13%;
+    position: absolute;
+    top: 10%;
+    left: 55%;
 }
 .whats{
     color: rgb(30, 255, 0);
     position: absolute;
-    top: 5%;
-    left: 51%;
+    top: 0%;
+    left: 0%;
 }
 .whats_app{
-    font-size: clamp(15px, 1.5vw, 35px);
+    font-size: clamp(15px, 1.5vw, 150px);
     position: absolute;
-    top: 16%;
-    left: 51%;
+    top: 41%;
+    left: 0%;
+}
+.telephoneNumber{
+    width: 40%;
+    height: 13%;
+    position: absolute;
+    top: 30%;
+    left: 55%;
 }
 .num{
     color: rgb(30, 255, 0);
     position: absolute;
-    top: 27%;
-    left: 51%;
+    top: 0%;
+    left: 0%;
 }
 .telo{
-    font-size: clamp(15px, 1.5vw, 35px);
+    font-size: clamp(15px, 1.5vw, 150px);
     position: absolute;
-    top: 37%;
-    left: 51%;
+    top: 41%;
+    left: 0%;
+}
+.selectes{
+    width: 40%;
+    height: 5%;
+    position: absolute;
+    top: 59%;
+    left: 55%;
 }
 .option{
     position: absolute;
-    top: 59%;
-    left: 51%;
+    top: 0%;
+    left: 0%;
 }
 .city{
     position: absolute;
-    top: 59%;
-    left: 80%;
+    top: 0%;
+    right: 0%;
 }
 .Next{
     position: absolute;
@@ -875,71 +980,63 @@ html[dir = "rtl"] .ras {
 }
 html[dir = "rtl"] .tipe {
     position: absolute;
-    top: 5%;
-    right: 55%;
+    top: 0%;
+    right: 0%;
 }
 html[dir = "rtl"] .type {
     position: absolute;
-    top: 16%;
-    left: 5%;
+    top: 50%;
+    left: 0%;
 }
 html[dir = "rtl"] .shop {
     position: absolute;
-    top: 27%;
-    right: 55%;
+    top: 12%;
+    right: 0%;
 }
 html[dir = "rtl"] .name {
     position: absolute;
-    top: 37%;
-    left: 5%;
+    top: 55%;
+    left: 0%;
 }
 html[dir = "rtl"] .phone {
     position: absolute;
-    top: 50%;
-    right: 55%;
+    top: 20%;
+    right: 0%;
 }
 html[dir = "rtl"] .tel {
     position: absolute;
-    top: 58%;
-    left: 5%;
+    top: 60%;
+    left: 0%;
 }
 html[dir = "rtl"] .whats {
     position: absolute;
-    top: 5%;
-    right: 9%;
+    top: 0%;
+    right: 0%;
 }
 html[dir = "rtl"] .whats_app {
     position: absolute;
-    top: 16%;
-    left: 51%;
+    top: 50%;
+    left: 0%;
 }
 html[dir = "rtl"] .num {
     position: absolute;
-    top: 27%;
-    right: 9%;
+    top: 12%;
+    right: 0%;
 }
 html[dir = "rtl"] .telo {
     position: absolute;
-    top: 37%;
-    left: 51%;
+    top: 55%;
+    left: 0%;
 }
 html[dir = "rtl"] .option {
     position: absolute;
-    top: 59%;
-    left: 51%;
+    top: 20%;
+    left: 0%;
 }
 html[dir = "rtl"] .city {
     width: 80px;
     position: absolute;
-    top: 59%;
-    right: 9%;
-}
-}
-}
-@media (max-width: 330px) {
-.Manage{
-    position: fixed;
-    top: 0%;
-    left: 0%;
+    top: 20%;
+    right: 0%;
 }
 }

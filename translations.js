@@ -13,7 +13,7 @@ const translations = {
         Manage: "Manage Offers",
         Selectgovernorate: "Select governorate",
         Selectcity: "Select city",
-        searchJop: "click the image to search for a jop",
+        searchJop: "click the image to search for a job",
         search: "click the image to search for Workers"
     },
     ar: {

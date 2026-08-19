@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google" content="notranslate">
-    <title>Document</title>
+    <title>search for workers</title>
     <link rel="stylesheet" href="style1.css">
 </head>
 <body class="bady">
@@ -18,16 +18,27 @@
     </div>
     <div class="form">
     <form onsubmit="return good()">
+      <div class="Tipe">
         <label for="e" class="tipe" data-i18n="storeType">Enter Store type</label><br>
         <input id="e" class="type" type="text" name="store_type" autocapitalize="words" autocorrect="off" autocomplete="text" required><br>
-     <label for="a" class="shop" data-i18n="shopName">enter your shop name</label><br>
+      </div>
+      <div class="shop_name">
+        <label for="a" class="shop" data-i18n="shopName">enter your shop name</label><br>
         <input id="a" class="name" type="text" name="shop_name" autocapitalize="words" autocorrect="off" autocomplete="text" required><br>
-     <label for="b" class="phone" data-i18n="phoneNumber">enter your phone number</label><br>
+      </div>
+      <div class="telephone">
+        <label for="b" class="phone" data-i18n="phoneNumber">enter your phone number</label><br>
         <input id="b" class="tel" inputmode="numeric" pattern="^01[0-2,5][0-9]{8}$" oninput='this.value = this.value.replace(/[^0-9]/g, "")' type="tel" name="mobile_phone" autocomplete="tel" required><br>
+      </div>
+      <div class="what">
         <label for="c" class="whats" data-i18n="whatsApp">WhatsApp Number</label><br>
         <input id="c" class="whats_app" inputmode="numeric" pattern="^01[0-2,5][0-9]{8}$" oninput='this.value = this.value.replace(/[^0-9]/g, "")' type="tel" name="whatsapp_number" autocomplete="tel" required><br>
+      </div>
+      <div class="telephoneNumber">
         <label for="d" class="num" data-i18n="ExpectedSalary">Expected Salary</label><br>
         <input id="d" class="telo" type="number" name="expected_salary" autocomplete="number" required><br>
+      </div>
+      <div class="selectes">
         <select id="governorate" class="option" name="governorate" required>
             <option value="" disabled selected hidden data-i18n="Selectgovernorate">Select governorate</option>
             <option value="alex">Alexandria</option>
@@ -61,6 +72,7 @@
         <select name="city" id="city" class="city" required>
             <option value=""disabled selected hidden data-i18n="Selectcity">Select city</option>
         </select>
+      </div>
         <button class="Next" style="font-size: 30px;" data-i18n="next">Next</button>
     </form>
     </div>
