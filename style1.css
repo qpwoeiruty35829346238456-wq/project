@@ -1,5 +1,4 @@
 /* https://plain-pine-b594.qpwoeiruty35829346238456.workers.dev */
-/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
 .lang{
     appearance: none;
     -webkit-appearance: none;
@@ -88,6 +87,20 @@
     left: 50%;
     transform: translateX(-50%);
 }
+.body_password{
+    background-color: #78a3e2;
+}
+.loading{
+    width: 59px;
+    height: 21px;
+    position: fixed;
+    top: 2%;
+    right: 1%;
+    transform: translateX(-50%);
+}
+.button_loading{
+    font-size: 1.5vw;
+}
 .bady{
     background-color: #78a3e2;
     /* background-image: url(finly.png);
@@ -131,7 +144,7 @@
 .Manage{
     appearance: none;
     -webkit-appearance: none;
-    font-size: clamp(8px, 1.2vw, 100px);
+    font-size: clamp(12px, 1.2vw, 100px);
     font-family: inherit;
     background-color: #123d57;
     color: white;
@@ -157,7 +170,8 @@
     min-height: 45px;
     position: absolute;
     top: 3.1%;
-    left: 11%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .tipe{
     color: rgb(30, 255, 0);
@@ -176,8 +190,9 @@
     height: 13%;
     min-height: 45px;
     position: absolute;
-    top: 16%;
-    left: 11%;
+    top: 19%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .shop{
     color: rgb(30, 255, 0);
@@ -196,8 +211,9 @@
     height: 13%;
     min-height: 45px;
     position: absolute;
-    top: 29%;
-    left: 11%;
+    top: 34%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .phone{
     color: rgb(30, 255, 0);
@@ -216,8 +232,9 @@
     height: 13%;
     min-height: 45px;
     position: absolute;
-    top: 42%;
-    left: 11%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .whats{
     color: rgb(30, 255, 0);
@@ -236,8 +253,9 @@
     height: 13%;
     min-height: 45px;
     position: absolute;
-    top: 55%;
-    left: 11%;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .num{
     color: rgb(30, 255, 0);
@@ -256,8 +274,9 @@
     height: 5%;
     min-height: 20px;
     position: absolute;
-    top: 70%;
-    left: 11%;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .option{
     position: absolute;
@@ -274,14 +293,13 @@
     -webkit-appearance: none;
     font-size: clamp(8px, 1.2vw, 100px);
     font-family: inherit;
-    width: 6vw;
-    min-width: 70px;
+    min-width: 100px;
     max-width: 180px;
     height: 3.2vw;
     min-height: 35px;
     max-height: 100px;
     position: absolute;
-    top: 85%;
+    top: 87%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -342,63 +360,63 @@ html[dir = "rtl"] .ras {
 }
 html[dir = "rtl"] .tipe {
     position: absolute;
-    top: 4%;
-    right: 11%;
+    top: 0%;
+    right: 0%;
 }
 html[dir = "rtl"] .type {
     position: absolute;
-    top: 9%;
-    left: 11%;
+    top: 50%;
+    left: 0%;
 }
 html[dir = "rtl"] .shop {
     position: absolute;
-    top: 17%;
-    right: 11%;
+    top: 0%;
+    right: 0%;
 }
 html[dir = "rtl"] .name {
     position: absolute;
-    top: 23%;
-    left: 11%;
+    top: 50%;
+    left: 0%;
 }
 html[dir = "rtl"] .phone {
     position: absolute;
-    top: 32%;
-    right: 11%;
+    top: 0%;
+    right: 0%;
 }
 html[dir = "rtl"] .tel {
     position: absolute;
-    top: 38%;
-    left: 11%;
+    top: 50%;
+    left: 0%;
 }
 html[dir = "rtl"] .whats {
     position: absolute;
-    top: 47%;
-    right: 11%;
+    top: 0%;
+    right: 0%;
 }
 html[dir = "rtl"] .whats_app {
     position: absolute;
-    top: 52%;
-    left: 11%;
+    top: 50%;
+    left: 0%;
 }
 html[dir = "rtl"] .num {
     position: absolute;
-    top: 61%;
-    right: 11%;
+    top: 0%;
+    right: 0%;
 }
 html[dir = "rtl"] .telo {
     position: absolute;
-    top: 67%;
-    left: 11%;
+    top: 50%;
+    left: 0%;
 }
 html[dir = "rtl"] .option {
     position: absolute;
-    top: 76%;
-    left: 11%;
+    top: 0%;
+    left: 0%;
 }
 html[dir = "rtl"] .city {
     position: absolute;
-    top: 76%;
-    right: 11%;
+    top: 0%;
+    right: 0%;
 }
 @media (min-width: 1500px) {
 .quition{
@@ -867,6 +885,7 @@ html[dir = "rtl"] .ras {
     position: absolute;
     top: 10%;
     left: 5%;
+    transform: translateX(0%);
 }
 .tipe{
     color: rgb(30, 255, 0);
@@ -886,6 +905,7 @@ html[dir = "rtl"] .ras {
     position: absolute;
     top: 30%;
     left: 5%;
+    transform: translateX(0%);
 }
 .shop{
     color: rgb(30, 255, 0);
@@ -905,6 +925,7 @@ html[dir = "rtl"] .ras {
     position: absolute;
     top: 50%;
     left: 5%;
+    transform: translateX(0%);
 }
 .phone{
     color: rgb(30, 255, 0);
@@ -924,6 +945,7 @@ html[dir = "rtl"] .ras {
     position: absolute;
     top: 10%;
     left: 55%;
+    transform: translateX(0%);
 }
 .whats{
     color: rgb(30, 255, 0);
@@ -943,6 +965,7 @@ html[dir = "rtl"] .ras {
     position: absolute;
     top: 30%;
     left: 55%;
+    transform: translateX(0%);
 }
 .num{
     color: rgb(30, 255, 0);
@@ -962,6 +985,7 @@ html[dir = "rtl"] .ras {
     position: absolute;
     top: 59%;
     left: 55%;
+    transform: translateX(0%);
 }
 .option{
     position: absolute;
